@@ -20,14 +20,15 @@ main {
     /* height: 679px; */
     padding: 30px;
 }
-hr{
+
+hr {
     border: 1px solid #D1D1D1;
 }
 
 
 /* top players styles */
 
-.top-player{
+.top-players {
     margin-bottom: 30px;
 }
 
@@ -55,7 +56,38 @@ hr{
     height: 56px;
 }
 
-.player-name{
+.player-name {
     margin-left: 16px;
     font-size: 18px;
+}
+
+/* blog styles */
+
+.blog {
+    display: flex;
+}
+
+.blog .thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.blog-auther {
+    font-size: 16px;
+    color:
+        #9F9F9F;
+}
+
+.blog-auther a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
 }
